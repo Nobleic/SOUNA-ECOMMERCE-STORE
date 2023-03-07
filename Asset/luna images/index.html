@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images</title>
+</head>
+<body>
+    <img class="mySlides" src="./istockphoto-104249401-1024x1024.jpg" alt=""></img>
+     <img class="mySlides" src="./istockphoto-1085287666-1024x1024.jpg" alt=""></img>
+      <img class="mySlides" src="./istockphoto-1152081987-1024x1024.jpg" alt=""></img>
+       <img class="mySlides" src="./istockphoto-1180257331-1024x1024.jpg" alt=""></img>
+        <img class="mySlides" src="./istockphoto-1189553135-1024x1024.jpg" alt=""></img>
+         <img class="mySlides" src="./istockphoto-1200989122-1024x1024.jpg" alt=""></img>
+          <img class="mySlides" src="./istockphoto-1243099554-1024x1024.jpg" alt=""></img>
+           <img class="mySlides" src="./istockphoto-1279843580-1024x1024.jpg" alt=""></img>
+            <img class="mySlides" src="./istockphoto-1281588354-1024x1024.jpg" alt=""></img>
+             <img class="mySlides" src="./istockphoto-1304885003-1024x1024.jpg" alt=""></img>
+              <img class="mySlides" src="./istockphoto-1350795275-1024x1024.jpg" alt=""></img>
+               <img class="mySlides" src="./istockphoto-1364996111-1024x1024.jpg" alt=""></img>
+                <img class="mySlides" src="./istockphoto-1364996142-1024x1024.jpg" alt=""></img>
+                  <img class="mySlides" src="./istockphoto-923593632-1024x1024.jpg" alt=""></img>
+                   <img class="mySlides" src="./istockphoto-888852002-1024x1024.jpg" alt=""></img>
+                    <img class="mySlides" src="./istockphoto-852093086-1024x1024.jpg" alt=""></img>
+                     <img class="mySlides" src="./istockphoto-849166628-1024x1024.jpg" alt=""></img>
+                      <img class="mySlides" src="./istockphoto-681017644-1024x1024.jpg" alt=""></img>
+                       <img class="mySlides" src="./istockphoto-669430232-1024x1024.jpg" alt=""></img>
+                        <img class="mySlides" src="./istockphoto-641218164-1024x1024.jpg" alt=""></img>
+                         <img class="mySlides" src="./istockphoto-618731934-1024x1024.jpg" alt=""></img>
+                          <img class="mySlides" src="./istockphoto-500257481-1024x1024.jpg" alt=""></img>
+                           <img class="mySlides" src="./istockphoto-157350328-1024x1024.jpg" alt=""></img>
+                           <img class="mySlides" src="./istockphoto-460583877-1024x1024.jpg" alt=""></img>
+                           <img class="mySlides" src="./istockphoto-1462112442-1024x1024.jpg" alt=""></img>
+                           <img class="mySlides" src="./istockphoto-1364996142-1024x1024.jpg" alt=""></img>
+                           <img class="mySlides" class="mySlides" src="./istockphoto-1281588354-1024x1024.jpg" alt=""></img>
+                           <img class="mySlides" class="mySlides" src="./istockphoto-849166628-1024x1024.jpg" alt=""></img>
+                           <img class="mySlides" src="./istockphoto-184693726-1024x1024.jpg" alt=""></img>
+                           <img class="mySlides" src="./istockphoto-185063401-1024x1024.jpg" alt=""></img>
+                           <img class="mySlides" src="./istockphoto-1462112442-1024x1024.jpg" alt=""></img>
+                           <img class="mySlides" src="./" alt=""></img>
+                           <img class="mySlides" src="./" alt=""></img>
+                           <img class="mySlides" src="./" alt=""></img>
+                           <img class="mySlides" src="./" alt=""></img>
+                           <img class="mySlides" src="./" alt=""></img>
+                           <img class="mySlides" src="./" alt=""></img>
+                           <img class="mySlides" src="./" alt=""></img>
+                           <script>
+                            var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+                           </script>
+</body>
+</html>

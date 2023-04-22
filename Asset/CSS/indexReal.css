@@ -624,13 +624,19 @@ header{
    align-items: center;
    font-size: 32px;
    color: var(--white);
+   display: flex;
    justify-content: center;
    text-decoration: none;
-   display: flex;
    pointer-events: none;
    cursor: pointer;
     opacity: 0; 
    transition: var(--transition);
+}
+.arrow-icon{
+    display: flex;
+    margin-left: -70%;
+    color: black;
+
 }
 
 .back-to-top a {

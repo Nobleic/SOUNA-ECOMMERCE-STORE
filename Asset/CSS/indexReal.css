@@ -665,11 +665,11 @@ header{
         flex-direction:row;
         border: 1px solid blue;
         padding: 10px;
-        color: blue;
+        color: var(--white);
         font-size: 35px;
     }
     .footer-sub1 h3{
-       color: blue;
+       color: var(--white);
        padding-bottom: 5px;
        font-family:'Times New Roman', Times, serif;
     }
@@ -753,7 +753,7 @@ header{
       padding-left: 20px;
     }@media only screen and (max-width: 920px) {
         body {
-          background-color: lightblue;
+          background-color: #3d91e6;
         }
     .footer-sec{
         

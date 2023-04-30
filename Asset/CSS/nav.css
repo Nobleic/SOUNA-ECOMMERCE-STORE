@@ -40,6 +40,7 @@ a{
     text-decoration: none;
 }
 
+
 li{
     list-style: none;
 }
@@ -56,6 +57,14 @@ button{
 .all{
     padding: 0px 55px;
 }
+/* bars-menu
+.bars-menu > ul li{
+    float: left;
+    width: 200px;
+    color: red;
+    height: 40px;
+
+}*/
 
 .flex{
     display: flex;
@@ -99,10 +108,10 @@ button{
     text-transform: uppercase;
     font-size: 24px;
     cursor: pointer;
-    color: blue;
+    
 }
 .img-logo{
-    
+
 }
 
 a{
@@ -128,6 +137,7 @@ a{
     gap: 4rem;
 }
 
+
 .search{
     border: 1px solid var(--lightCream);
     padding: 5px 15px;
@@ -145,7 +155,10 @@ a{
     border-radius: 2px;
     cursor: pointer;
 }
-
+.search-ig{
+    float: left;
+    justify-content: center;
+}
 .search-icon:hover{
     background: var(--blue);
 }

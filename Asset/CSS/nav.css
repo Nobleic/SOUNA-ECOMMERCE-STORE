@@ -16,7 +16,7 @@
     --lg-am: 700;
 
     /* transition */
-    --transtionAll: all 0.7s;
+    --transtionAll: all 0.9s;
 
 }
 
@@ -81,6 +81,7 @@ button{
 
 .left > div + div{
     margin-left: 30px;
+    
 }
 
 .right > div{
@@ -109,9 +110,6 @@ button{
     font-size: 24px;
     cursor: pointer;
     
-}
-.img-logo{
-
 }
 
 a{
@@ -148,7 +146,7 @@ a{
 }
 
 .search-icon{
-    background: var(--hover1);
+    background: var(--blue);
     padding: 9px 10px 2px;
     color: var(--white);
     transition: var(--transtionAll);
@@ -229,4 +227,76 @@ a{
 
 .sidebar-links{
     padding-left: 25px;
+}
+/* trending*/
+
+ .trending-se .trending{
+white-space: nowrap;
+display: flex;
+box-sizing: border-box;
+
+}
+.trending-se{
+    max-width: 1200px;
+}
+.trending img{
+height: 340px;
+width:calc(100%) ;
+}
+
+
+/* Media quary  */
+
+@media only screen and (max-width: 920px) {
+    body{
+        max-width: 100%;
+        background-color: white;
+        max-width: 100%;
+
+          }
+          
+}
+
+@media only screen and (max-width: 500px) {
+    body{
+        width: 1000px;
+        background-color: rgb(177, 35, 35);
+      
+
+          }
+        
+          .main-div{
+           width: 640px;
+          }
+          .navbar-one{
+            width: 100%;
+          }
+          .left > div + div{
+          display: none;
+          }
+          .all{
+            color: red;
+           
+          }
+          .logo{
+            margin-left: -60px;
+          }
+          .search-icon{
+            float:right;
+           align-content: center;
+           margin-top: -25px;
+           margin-left: -100px;
+           
+           
+          
+          }
+          .search{
+            margin-left: -40px;
+            height: 30px;
+            width: 200px;
+          }
+          /* Header */
+          .header-details{
+            width: 1000%;
+          }
 }

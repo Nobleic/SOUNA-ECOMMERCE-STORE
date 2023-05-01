@@ -253,6 +253,7 @@ header{
     mix-blend-mode: screen;
     padding: 8px 25px;
     border-radius: 2px 7px 2px 2px;
+    background-color: #3d91e6;
 }
 
 .outer h2::after{
@@ -281,6 +282,9 @@ header{
 
     75%{
         background-image: url('/Asset/images/head3.jpg');
+    }
+    95%{
+        background-image: url('/Asset/images/head2.jpg');
     }
 }
 
@@ -492,7 +496,7 @@ header{
  }
 
  .best-products-details h3{
-    font-size: ;
+    
  }
  .best-products-details h2{
    font-size: 2.5rem;
@@ -760,7 +764,7 @@ header{
         }
     .footer-sec{
         
-    padding: 9px 14px;
+    padding: 14px 34px;
     max-width: 100%;
     }
     .footer-sub1{
